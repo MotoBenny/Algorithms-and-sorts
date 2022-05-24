@@ -1,4 +1,5 @@
 from merge_sort.merge_sort import merge_sort
+import pytest
 
 
 def test_merge_sort_exists():
@@ -38,3 +39,9 @@ def test_odd_length():
     actual = merge_sort(test_list)
     expected = [4, 5, 5, 12, 123]
     assert actual == expected
+
+
+def test_invalid_list():
+    test_list = ['a', 3, 'b', 62, 12, 'wrong']
+    with pytest.raises(TypeError):
+        assert merge_sort(test_list)
