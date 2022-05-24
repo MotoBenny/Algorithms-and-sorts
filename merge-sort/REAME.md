@@ -23,3 +23,6 @@ Recursively call the algorithm to continue splitting the sublists into smaller l
 
 [img](img2.png)
 
+At this point our input list, is split as far as we can split it. 
+
+[img](img3.png)
