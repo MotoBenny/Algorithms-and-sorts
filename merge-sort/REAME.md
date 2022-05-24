@@ -17,12 +17,12 @@ Merge sort has a O(n * log(n)) running time.
 
 Split the first list in half.
 
-[img](Img1.png)
+![img](Img1.png)
 
 Recursively call the algorithm to continue splitting the sublists into smaller lists.
 
-[img](img2.png)
+![img](img2.png)
 
 At this point our input list, is split as far as we can split it. 
 
-[img](img3.png)
+![img](img3.png)
